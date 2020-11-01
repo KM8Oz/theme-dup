@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/theme-dup/static/css/main.c6de1c27.chunk.css",
+    "main.js": "/theme-dup/static/js/main.0494bdee.chunk.js",
+    "main.js.map": "/theme-dup/static/js/main.0494bdee.chunk.js.map",
+    "runtime-main.js": "/theme-dup/static/js/runtime-main.040b0359.js",
+    "runtime-main.js.map": "/theme-dup/static/js/runtime-main.040b0359.js.map",
+    "static/js/2.c430fe4a.chunk.js": "/theme-dup/static/js/2.c430fe4a.chunk.js",
+    "static/js/2.c430fe4a.chunk.js.map": "/theme-dup/static/js/2.c430fe4a.chunk.js.map",
+    "static/js/3.7016aa21.chunk.js": "/theme-dup/static/js/3.7016aa21.chunk.js",
+    "static/js/3.7016aa21.chunk.js.map": "/theme-dup/static/js/3.7016aa21.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c6de1c27.chunk.css.map": "/theme-dup/static/css/main.c6de1c27.chunk.css.map",
+    "static/js/2.c430fe4a.chunk.js.LICENSE.txt": "/theme-dup/static/js/2.c430fe4a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "/theme-dup/static/js/runtime-main.040b0359.js",
+    "/theme-dup/static/js/2.c430fe4a.chunk.js",
+    "/theme-dup/static/css/main.c6de1c27.chunk.css",
+    "/theme-dup/static/js/main.0494bdee.chunk.js"
+  ]
+}

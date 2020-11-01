@@ -1,23 +1,37 @@
-import logo from './logo.svg';
+import SvgDrawing from './SvgDrawing'
+import React, {useState} from 'react'
 import './App.css';
-
+import { Spring } from 'react-spring/renderprops'
 function App() {
+const [offsit,setOffsit]=useState({x:0})
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Spring
+  from={{ 
+        x: 0 ,
+        st1:"M177.55 99.567l0.145-61.968",
+        st2:"M30.086 98.883l-0.35-61.98",
+        st3:"M177.55 223.503l0.145 63.472",
+        st4:"M30.636 223.503l-0.337 63.545",
+        st5:"M199.83 161.535h0.538M7.659 161.535h-0.235M103.048",
+        img:0.0001,
+        st6:"M278.66-0.302L304.362 80.42H284.39L258.688-0.302zM313.94 100.264l25.701 126.721h-0.972l-25.702-126.721zM271.467 245.784l25.701 126.722h-0.972l-25.701-126.722zM-60.576 247.873l-19.278 126.721h0.981l19.278-126.72zM-103.685 100.263l-19.278 126.721h0.981l19.278-126.72zM-70.264-0.257l-19.278 126.72h0.981l19.278-126.72z"
+        }}
+  to={{ 
+        x: 96.006,
+        st1:"M177.55 99.567l66.145-61.968",
+        st2:"M30.086 98.883l-64.35-61.98",
+        st3:"M177.55 223.503l66.145 63.472",
+        st4:"M30.636 223.503l-64.337 63.545",
+        st5:"M199.83 161.535h67.538M7.659 161.535h-68.235M103.048",
+        img:1,
+        st6:"M278.66-46.302L304.362 80.42H284.39L258.688-46.302zM313.94 100.264l25.701 126.721h-19.972l-25.702-126.721zM271.467 245.784l25.701 126.722h-19.972l-25.701-126.722zM-60.576 247.873l-19.278 126.721h14.981l19.278-126.72zM-103.685 100.263l-19.278 126.721h14.981l19.278-126.72zM-70.264-45.257l-19.278 126.72h14.981l19.278-126.72z"
+        }}>
+  {props => {
+      // setOffsit(props)
+    return(<SvgDrawing offsit={props} className='App-logo' />)
+}}
+</Spring>
     </div>
   );
 }
